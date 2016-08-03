@@ -1,9 +1,14 @@
 name: redis-cluster
-home: http://github.com/deis/redis-cluster
-version: 0.0.5
 description: Highly available Redis cluster with multiple sentinels and standbys.
+version: 0.0.5
+keywords:
+  - redis
+  - cache
+  - kv
+home: http://github.com/deis/redis-cluster
 maintainers:
-  - Gabe Monroy <gabe@deis.com>
+  - name: Gabe Monroy
+    email: gabe@deis.com
 details:
   This package provides a highly available Redis cluster with multiple sentinels and standbys.
   Note the `redis-master` pod is used for bootstrapping only and can be deleted once
