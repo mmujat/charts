@@ -1,7 +1,7 @@
 name: mysql
 description: Chart running MySQL.
 home: https://www.mysql.com/
-version: 0.2.0
+version: 0.2.1
 maintainers:
   - name: Matt Fisher
     email: mfisher@deis.com
